@@ -1,0 +1,85 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.hNav
+{   
+    background-color: white;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.hNav div
+ {
+      width: 20%;
+      
+   
+}
+.hNav .search 
+{
+    width: 600px;
+}
+.hNav img
+{   
+   width: 100px; 
+   margin-left: 50px;
+}
+
+
+.hNav input
+{
+    width: 500px;
+    border:  1px solid lightgray;
+}
+
+.hNav button 
+{
+    width: 70px;
+    border: 1px solid lightgray;
+    border-radius:  0 2px  2px 0;
+
+}
+
+.hNav i
+{
+    font-size: 20px;
+    color:rgb(173, 167, 167);
+    font-weight: 100;
+    margin: 0 20px ;
+}
+
+
+.vNav
+{   margin: 0;
+    background-color:white;
+    height: 100vh;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+}
+
+.vNav  div
+{
+    width: auto;
+    height: 70px;
+    font-size: 11px;
+    color: red;
+  
+}
+
+
+
+.vNav  div:hover
+{
+    background-color: lightgray;
+}
+
+
+.vNav i
+{
+    font-size: 24px;
+    padding: 5px;
+}

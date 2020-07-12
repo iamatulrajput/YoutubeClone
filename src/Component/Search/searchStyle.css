@@ -1,0 +1,17 @@
+.search input
+{
+    width: 500px;
+    border:  1px solid lightgray;
+}
+
+.search button 
+{
+    width: 70px;
+    border: 1px solid lightgray;
+    border-radius:  0 2px  2px 0;
+
+}
+ .search 
+{
+    width: 600px;
+}

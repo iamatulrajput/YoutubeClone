@@ -1,0 +1,24 @@
+body
+{
+    background-color: rgb(236, 231, 231);
+    margin: 0;
+    padding: 0;
+}
+
+
+#dataList article 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.player_Block
+{
+    flex-basis:65% ;
+}
+
+
+.list_Block
+{
+    flex-basis: 29%;
+}
